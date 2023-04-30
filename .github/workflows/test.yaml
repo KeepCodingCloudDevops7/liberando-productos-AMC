@@ -6,11 +6,10 @@ on:
     branches:
       - '*'
     tags:
-      - ´*´
-    
+      - 'v*'
 
 env:
-  PYTHON_VERSION: '3.8.12'
+  PYTHON_VERSION: '3.10.12'
 
 name: Test
 jobs:
