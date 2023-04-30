@@ -5,6 +5,9 @@ on:
   push:
     branches:
       - '*'
+    tags:
+      - 'v*'
+    
 
 env:
   PYTHON_VERSION: '3.8.12'
